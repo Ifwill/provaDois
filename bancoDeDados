@@ -1,0 +1,18 @@
+create database meuBanquinho;
+use meuBAnquinho;
+
+create table medico(
+crm int,
+email varchar(55),
+senha varchar(10),
+nome varchar(55),
+idade int,
+sexo boolean
+);
+
+create table paciente(
+cpf varchar(14),
+nome varchar(55),
+idade int,
+sexo boolean
+);
